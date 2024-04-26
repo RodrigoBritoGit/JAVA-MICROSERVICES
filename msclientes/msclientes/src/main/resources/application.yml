@@ -1,13 +1,23 @@
-spring:
-  application:
-    name: msclientes
-
 server:
-  port: 0
-  
-eureka: 
-  client: 
-   service-url: 
-    defaultZone: http://localhost:8761/eureka
-  instance:
-   instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+   port: 0
+
+eureka:
+   client:
+      service-url:
+         defaultZone: http://localhost:8761/eureka
+   instance:
+      instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+
+spring:
+   application:
+      name: MSCLIENTES
+
+   datasource:
+      url: jdbc:postgresql://localhost:5432/Fintech
+      username: postgres
+      password: adm
+      driver-class-name: org.postgresql.Driver
+   jpa:
+      database-platform: org.hibernate.dialect.PostgreSQLDialect
+      hibernate:
+         ddl-auto: update
