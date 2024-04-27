@@ -10,7 +10,7 @@ eureka:
 
 spring:
    application:
-      name: MSCLIENTES
+      name: MSCARTOES
 
    datasource:
       url: jdbc:postgresql://localhost:5432/Fintech
