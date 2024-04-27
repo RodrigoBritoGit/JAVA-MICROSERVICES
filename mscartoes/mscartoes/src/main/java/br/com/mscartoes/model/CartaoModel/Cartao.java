@@ -1,4 +1,4 @@
-package br.com.mscartoes.model;
+package br.com.mscartoes.model.CartaoModel;
 
 import java.math.BigDecimal;
 

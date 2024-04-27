@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.config.JpaRepositoryConfigExtension;
 
-import br.com.mscartoes.model.Cartao;
+import br.com.mscartoes.model.CartaoModel.Cartao;
 
 public interface CartaoRepository extends JpaRepository<Cartao, Long> {
 

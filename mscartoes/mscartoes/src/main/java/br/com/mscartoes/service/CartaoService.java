@@ -6,7 +6,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.com.mscartoes.model.Cartao;
+import br.com.mscartoes.model.CartaoModel.Cartao;
 import br.com.mscartoes.repository.CartaoRepository;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
